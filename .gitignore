@@ -1,0 +1,21 @@
+# Taken from https://github.com/github/gitignore/blob/master/Node.gitignore
+# May not be the best one to use for a Node + Express project...
+
+lib-cov
+*.seed
+*.log
+*.csv
+*.dat
+*.out
+*.pid
+*.gz
+
+pids
+logs
+results
+
+npm-debug.log
+node_modules
+
+# under Express with stylus for the layout
+public/stylesheets/*.css
