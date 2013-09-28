@@ -1,7 +1,37 @@
 
+CHARS = ['1', '0', 'z', 'G', 'y', 'x', '$', '*', '_', '`']
+madnessActive = true
+
+strByReplacingCharWith = (str, index, char) ->
+  str.substr(0, index) + char + str.substr(index + char.length)  
+
+# See http://stackoverflow.com/questions/1527803/generating-random-numbers-in-javascript-in-a-specific-range
+getRandomInt = (max) ->
+  Math.floor(Math.random() *  max)
+
+getRandom = (array) ->
+  idx = getRandomInt array.length
+  array[idx]
+
+lettersMadness = () ->
+  $('h1, h2, h3, li').each () ->
+    current = $(this).html()
+    # console.log current + " " + current.length
+    if current
+      $(this).html strByReplacingCharWith current, getRandomInt(current.length), getRandom(CHARS)
+
+lettersMadnessLooped = () ->
+  looped = () ->
+    if madnessActive
+      lettersMadness()
+      lettersMadnessLooped()
+  setTimeout looped, 100
+
 hackLayout = (hacked) ->
-  $('img#face_boring').hide()
-  $('img#face_hacked').show()
+
+  changeFace = () ->
+    $('img#face_boring').hide()
+    $('img#face_hacked').show()
 
   turnLightsOff = () ->
     $('body').addClass 'lights-off'
@@ -9,14 +39,20 @@ hackLayout = (hacked) ->
   turnLightsOn = () ->
     $('body').removeClass 'lights-off'
     $('body').addClass 'hacked'
-    
-  d1 = 1500
+  
+  lettersMadness()
+  lettersMadnessLooped()
+
+  turnTheMadnessOff = () ->
+    madnessActive = false
+
+  d1 = 2500
   d2 = 2000
+  setTimeout changeFace, d1
   setTimeout turnLightsOff, d1
-  setTimeout turnLightsOn, d1 + d2 
-    
+  setTimeout turnTheMadnessOff, d1 + d2
+  setTimeout turnLightsOn, d1 + d2
+
 
 $ ->
-  setTimeout hackLayout, 2000
-
-
+  setTimeout hackLayout, 3000
