@@ -16,7 +16,11 @@ getRandom = (array) ->
 lettersMadness = () ->
   $('h1, h2, h3, li').each () ->
     current = $(this).html()
-    # console.log current + " " + current.length
+
+    original = $(this).attr 'data-original'
+    if not original
+      $(this).attr 'data-original', current
+
     if current
       $(this).html strByReplacingCharWith current, getRandomInt(current.length), getRandom(CHARS)
 
@@ -45,6 +49,9 @@ hackLayout = (hacked) ->
 
   turnTheMadnessOff = () ->
     madnessActive = false
+    $('h1, h2, h3, li').each () ->
+      original = $(this).attr 'data-original'
+      $(this).html original
 
   d1 = 2500
   d2 = 2000
