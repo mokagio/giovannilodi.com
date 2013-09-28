@@ -1,11 +1,12 @@
 
 # Module dependencies.
 
-express = require('express')
-routes = require('./routes')
-user = require('./routes/user')
-http = require('http')
-path = require('path')
+express = require 'express'
+routes = require './routes'
+user = require './routes/user'
+http = require 'http' 
+path = require 'path'
+nib = require 'nib'
 
 app = express()
 
@@ -28,6 +29,8 @@ js.root = '/javascripts'
 # development only
 if 'development' == app.get('env')
   app.use(express.errorHandler())
+
+app.use(nib)
 
 app.get('/', routes.index)
 app.get('/users', user.list)

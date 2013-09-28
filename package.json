@@ -9,6 +9,7 @@
     "express": "3.3.4",
     "jade": "*",
     "stylus": "*",
+    "nib": "*",
     "coffee-script": "~1.6.3",
     "connect-assets": "~2.5.2"
   }
