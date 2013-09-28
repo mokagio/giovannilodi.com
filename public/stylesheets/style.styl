@@ -1,5 +1,38 @@
+// Boring style
+
 body
-  padding: 50px
+  padding: 60px 50px 50px 100px
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif
-a
-  color: #00B7FF
+  color: #34495E
+  background: white
+
+.info-block
+  margin-bottom: 20px
+
+  .info-image
+    @width: 100px
+
+    display: inline-block
+    width: @width
+    margin-right: 16px
+    vertical-align: top
+
+    img
+      width: @width
+
+  .info-content
+    display: inline-block
+
+    ul
+      list-style-type: none
+      padding: 0
+
+// Hakced style
+
+body.hacked
+  font: 14px Monaco, monospace;
+  color: white
+  background: rgb(39, 40, 34)
+
+#face_hacked
+  display: none
