@@ -1,0 +1,15 @@
+{
+  "name": "giovannilodi.com",
+  "version": "0.0.1",
+  "authors": [
+    "Gio <giovanni.lodi42@gmail.com>"
+  ],
+  "description": "Giovanni @mokagio Lodi personal placeholder website",
+  "license": "MIT",
+  "homepage": "http://giovannilodi.com",
+  "private": true,
+  "directoy": "public/vendor",
+  "dependencies": {
+    "jquery": "~2.0.3"
+  }
+}

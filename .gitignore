@@ -19,3 +19,6 @@ node_modules
 
 # under Express with stylus for the layout
 public/stylesheets/*.css
+
+# custom configured bower folder
+public/javascripts/vendor/*
