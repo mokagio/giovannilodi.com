@@ -4,12 +4,19 @@
 @import '../javascripts/vendor/font-awesome/css/font-awesome.css'
 // override font location
 @font-face
-  font-family: 'FontAwesome'
-  location = '../javascripts/vendor/font-awesome/font'
+  font-family: 'FontAwesomeMoka'
+  location = 'https://github.com/FortAwesome/Font-Awesome/raw/b1a8ad47303509e70e56079396fad2afadfd96d5/font'
   src: url(location + '/fontawesome-webfont.eot?v=3.2.1')
-  src: url(location + '/fontawesome-webfont.eot?#iefix&v=3.2.1') format('embedded-opentype'), url(location + '/fontawesome-webfont.woff?v=3.2.1') format('woff'), url(location + '/fontawesome-webfont.ttf?v=3.2.1') format('truetype'), url(location + '/fontawesome-webfont.svg#fontawesomeregular?v=3.2.1') format('svg')
+  src: url(location + '/fontawesome-webfont.eot?#iefix&v=3.2.1') format('embedded-opentype'), 
+    url(location + '/fontawesome-webfont.woff?v=3.2.1') format('woff'), 
+    url(location + '/fontawesome-webfont.ttf?v=3.2.1') format('truetype'), 
+    url(location + '/fontawesome-webfont.svg#fontawesomeregular?v=3.2.1') format('svg')
   font-weight: normal
   font-style: normal
+
+[class^="icon-"],
+[class*=" icon-"]
+  font-family: FontAwesomeMoka
 
 sublime_black = rgb(39, 40, 34)
 sublime_green = rgb(166, 226, 42)
