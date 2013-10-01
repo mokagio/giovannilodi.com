@@ -34,8 +34,8 @@ lettersMadnessLooped = () ->
 hackLayout = (hacked) ->
 
   changeFace = () ->
-    $('img#face_boring').hide()
-    $('img#face_hacked').show()
+    $('img#face_boring').fadeOut(1000)
+    $('img#face_hacked').fadeIn(1000)
 
   turnLightsOff = () ->
     $('body').addClass 'lights-off'
@@ -43,9 +43,6 @@ hackLayout = (hacked) ->
   turnLightsOn = () ->
     $('body').removeClass 'lights-off'
     $('body').addClass 'hacked'
-  
-  lettersMadness()
-  lettersMadnessLooped()
 
   turnTheMadnessOff = () ->
     madnessActive = false
@@ -53,10 +50,11 @@ hackLayout = (hacked) ->
       original = $(this).attr 'data-original'
       $(this).html original
 
-  d1 = 2500
+  d1 = 0
   d2 = 2000
   setTimeout changeFace, d1
   setTimeout turnLightsOff, d1
+  # setTimeout lettersMadnessLooped, d1
   setTimeout turnTheMadnessOff, d1 + d2
   setTimeout turnLightsOn, d1 + d2
 
