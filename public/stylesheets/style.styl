@@ -12,6 +12,9 @@
   font-style: normal
 
 sublime_black = rgb(39, 40, 34)
+sublime_green = rgb(166, 226, 42)
+green_sea = #16A085
+emerald = #2ECC71
 
 // Boring style
 body
@@ -20,26 +23,47 @@ body
   color: #34495E
   background: white
 
+  a, a:hover
+    text-decoration: none
+  a
+    color: green_sea
+  a:hover
+    color: emerald
+
 .info-block
   margin-bottom: 20px
 
+  image_side = 100px
   .info-image
-    box_width = 100px
-
     display: inline-block
-    width: box_width
+    width: image_side
     margin-right: 16px
     vertical-align: top
 
     img
-      width: box_width
+      width: image_side
 
   .info-content
     display: inline-block
+    margin-left: 20px
+
+    h1
+      h1_size = 40px
+      h1_line_height = 1.2
+      font-size: h1_size
+      line-height: h1_line_height
+      margin-top: (image_side / 2) - ((h1_size * h1_line_height) / 2)
+
+      span.subtitle
+        font-size: (h1_size / 2)
+
+    h2, h3, h4
+      margin-top: 6px
 
     ul
       list-style-type: none
       padding: 0
+      margin-bottom: 0
 
   // This is to have the face images overlapped for the fade transition
   position: relative
@@ -54,6 +78,11 @@ body
 body.lights-off
   color: sublime_black
   background: sublime_black
+  a, a:hover
+    color: sublime_black
+body.lights-off,
+body.lights-off a,
+body.lights-off a:hover
   transition(all, 1s, ease-in-out)
 
 
@@ -62,6 +91,13 @@ body.hacked
   font: 14px Monaco, monospace;
   color: white
   background: sublime_black
+  a
+    color: sublime_green
+  a:hover
+    // color: darken(sublime_green)
+body.hacked,
+body.hacked a,
+body.hacked a:hover
   transition(all, 1s, ease-in-out)
 
 #face_hacked
