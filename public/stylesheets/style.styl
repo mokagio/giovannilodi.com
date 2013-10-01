@@ -13,7 +13,6 @@
     url(location + '/fontawesome-webfont.svg#fontawesomeregular?v=3.2.1') format('svg')
   font-weight: normal
   font-style: normal
-
 [class^="icon-"],
 [class*=" icon-"]
   font-family: FontAwesomeMoka
@@ -73,6 +72,13 @@ body
       list-style-type: none
       padding: 0
       margin-bottom: 0
+
+    i:first-child
+      margin-left: 9px
+    // TODO I got problems with last-child and only-child...
+    i.lonley
+      margin-left: 0px
+      margin-right: 10px
 
   // This is to have the face images overlapped for the fade transition
   position: relative
