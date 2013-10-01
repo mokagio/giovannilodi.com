@@ -6,53 +6,59 @@ block content
       img#face_boring(src="/images/gio_c.png")
       img#face_hacked(src="/images/mokagio_c.png")
     div.info-content
-      h1 Giovanni Lodi
-      h3 Sofware Engineer
+      h1 Giovanni Lodi&nbsp;
+        span.subtitle Software Engineer
 
   div.info-block
     div.info-image
     div.info-content
       h2 Tech
-      div.tech-entry iOS &amp Objective-C
-        i.icon-star
-        i.icon-star
-        i.icon-star
-        i.icon-star
-        i.icon-star
-      div.tech-entry Ruby &amp Ruby on Rails
-        i.icon-star
-        i.icon-star
-        i.icon-star
-        i.icon-star-empty
-        i.icon-star-empty
-      div.tech-entry Javascript &amp Node.js
-        i.icon-star
-        i.icon-star
-        i.icon-star-empty
-        i.icon-star-empty
-        i.icon-star-empty
+      ul
+        li iOS &amp Objective-C
+          i.icon-star
+          i.icon-star
+          i.icon-star
+          i.icon-star
+          i.icon-star
+        li Ruby &amp Ruby on Rails
+          i.icon-star
+          i.icon-star
+          i.icon-star
+          i.icon-star-empty
+          i.icon-star-empty
+        li Javascript &amp Node.js
+          i.icon-star
+          i.icon-star
+          i.icon-star-empty
+          i.icon-star-empty
+          i.icon-star-empty
 
   div.info-block
     div.info-image
     div.info-content
       h2 About
-      ul
-        li Software Engineer, recently focused on iOS developmen
-        li Making language learning awesome at CatAcademy by Memrise
-        li Blogging on mokacoding.com
-        li Eating, swimming, and reading books in my spare time
-        li more...
+      :markdown
+        * Software Engineer, recently focused on iOS developmen
+        * Making language learning awesome at [CatAcademy](http://catacademy.com)
+        by [Memrise](http://memrise.com)
+        * Blogging on [mokacoding.com](http://mokacoding.com)
+        * Eating, swimming, and reading books in my spare time
 
   div.info-block
     div.info-image
     div.info-content
       h2 Contact
       ul
-        li giovanni.lodi42@gmail.com
-        li @mokagio
-        li LikedIn
-        li github
-        li instagram
-        li more...
+        li 
+          a(href="mailto:giovanni.lodi42@gmail.com") giovanni.lodi42@gmail.com
+        li 
+          a(href="http://twitter.com/mokagio") @mokagio
+        li 
+          a(href="http://github.com/mokagio") github
+        li 
+          a(href="http://www.linkedin.com/in/giovannilodi") LinkedIn
+        li 
+          a(href="http://instagram.com/mokagio") instagram
+        //- li more...
 
   != js('layout_switch')
