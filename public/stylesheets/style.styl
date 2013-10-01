@@ -13,6 +13,8 @@
 
 sublime_black = rgb(39, 40, 34)
 sublime_green = rgb(166, 226, 42)
+sublime_pruple = rgb(151, 129, 255)
+
 green_sea = #16A085
 emerald = #2ECC71
 
@@ -81,8 +83,7 @@ body.lights-off
   a, a:hover
     color: sublime_black
 body.lights-off,
-body.lights-off a,
-body.lights-off a:hover
+body.lights-off a
   transition(all, 1s, ease-in-out)
 
 
@@ -91,13 +92,15 @@ body.hacked
   font: 14px Monaco, monospace;
   color: white
   background: sublime_black
+  
   a
     color: sublime_green
-  a:hover
-    // color: darken(sublime_green)
+
+  ul
+    margin-left: 20px
+
 body.hacked,
-body.hacked a,
-body.hacked a:hover
+body.hacked a
   transition(all, 1s, ease-in-out)
 
 #face_hacked
