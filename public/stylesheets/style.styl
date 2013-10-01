@@ -1,6 +1,16 @@
 
 @import 'nib/vendor'
 
+@import '../javascripts/vendor/font-awesome/css/font-awesome.css'
+// override font location
+@font-face
+  font-family: 'FontAwesome'
+  location = '../javascripts/vendor/font-awesome/font'
+  src: url(location + '/fontawesome-webfont.eot?v=3.2.1')
+  src: url(location + '/fontawesome-webfont.eot?#iefix&v=3.2.1') format('embedded-opentype'), url(location + '/fontawesome-webfont.woff?v=3.2.1') format('woff'), url(location + '/fontawesome-webfont.ttf?v=3.2.1') format('truetype'), url(location + '/fontawesome-webfont.svg#fontawesomeregular?v=3.2.1') format('svg')
+  font-weight: normal
+  font-style: normal
+
 sublime_black = rgb(39, 40, 34)
 
 // Boring style
