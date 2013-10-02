@@ -7,7 +7,8 @@ block content
       img#face_hacked(src="https://raw.github.com/mokagio/giovannilodi.com/master/public/images/mokagio_c.png")
     div.info-content
       h1 Giovanni Lodi&nbsp;
-        span.subtitle software engineer
+        span.subtitle.boring-content software engineer
+        span.subtitle.hacked-content hipster hacker
 
   div.info-block
     div.info-image
@@ -15,34 +16,48 @@ block content
       h2 Tech
       ul
         li iOS &amp Objective-C
-          i.icon-star
-          i.icon-star
-          i.icon-star
-          i.icon-star
-          i.icon-star
+          span.boring-content
+            i.icon-star
+            i.icon-star
+            i.icon-star
+            i.icon-star
+            i.icon-star
+          span.hacked-content &nbsp;* * * * *
         li Ruby &amp Ruby on Rails
-          i.icon-star
-          i.icon-star
-          i.icon-star
-          i.icon-star-empty
-          i.icon-star-empty
-        li Javascript &amp Node.js
-          i.icon-star
-          i.icon-star
-          i.icon-star-empty
-          i.icon-star-empty
-          i.icon-star-empty
+          span.boring-content
+            i.icon-star
+            i.icon-star
+            i.icon-star
+            i.icon-star-empty
+            i.icon-star-empty
+          span.hacked-content &nbsp;* * *
+        li Coffeescript &amp Node.js
+          span.boring-content
+            i.icon-star
+            i.icon-star
+            i.icon-star-empty
+            i.icon-star-empty
+            i.icon-star-empty
+          span.hacked-content &nbsp;* *
 
   div.info-block
     div.info-image
     div.info-content
       h2 About
-      :markdown
-        * Software Engineer, recently focused on iOS development
-        * Making language learning awesome at [CatAcademy](http://catacademy.com)
-        by [Memrise](http://memrise.com)
-        * Blogging on [mokacoding.com](http://mokacoding.com)
-        * Eating, swimming, and reading books in my spare time
+      div.boring-content
+        :markdown
+          * Software Engineer, recently focused on iOS development
+          * Making language learning awesome at [CatAcademy](http://catacademy.com)
+          by [Memrise](http://memrise.com)
+          * Blogging on [mokacoding.com](http://mokacoding.com)
+          * Eating, swimming, and reading books in my spare time
+
+      div.hacked-content
+        :markdown
+          * Hipster hacker, focused on new technologies
+          * Coffeescript enthusiast
+          * Blogging on [mokacoding.com](http://mokacoding.com)
+          * Sharing code on [GitHub](http://github.com/mokagio)
 
   div.info-block
     div.info-image

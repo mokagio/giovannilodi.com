@@ -46,6 +46,8 @@ hackedLayout = () ->
     $('body').addClass 'hacked'
 
     $('#switch').html($('#switch').attr 'data-hacked')
+    $('.hacked-content').show()
+    $('.boring-content').hide()
 
 
   turnTheMadnessOff = () ->
@@ -72,11 +74,12 @@ boringLayout = () ->
   stepTwo = () ->
     $('body').removeClass('lights-off')
     $('body').removeClass('hacked')
-    $('body').addClass('boring')
     $('img#face_boring').fadeIn(1000)
     $('img#face_hacked').fadeOut(1000)
 
     $('#switch').html($('#switch').attr('data-boring'))
+    $('.hacked-content').hide()
+    $('.boring-content').show()
 
   stepOne()
   setTimeout stepTwo, 2000
