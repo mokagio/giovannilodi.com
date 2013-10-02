@@ -3,5 +3,5 @@
  
 exports.index = (req, res) ->
   res.render "index",
-    title: "Express"
+    title: "Giovanni Lodi | mokagio"
 
