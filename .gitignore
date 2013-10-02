@@ -15,7 +15,8 @@ logs
 results
 
 npm-debug.log
-node_modules
+# so be it, let's checkout the node_modules folder...
+# node_modules
 
 # under Express with stylus for the layout
 public/stylesheets/*.css
