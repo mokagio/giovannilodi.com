@@ -22,4 +22,4 @@ npm-debug.log
 public/stylesheets/*.css
 
 # custom configured bower folder
-public/javascripts/vendor/*
+# public/javascripts/vendor/*
