@@ -7,6 +7,7 @@ user = require './routes/user'
 http = require 'http' 
 path = require 'path'
 nib = require 'nib'
+require 'newrelic'
 
 app = express()
 
