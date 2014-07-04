@@ -2,8 +2,17 @@ doctype 5
 html
   head
     title= title
+    meta(content='width=device-width', name='viewport')
     != css('style')
     != js('vendor/jquery/jquery.min.js')
     link(rel="shortcut icon", type="image/x-icon", href="https://raw.github.com/mokagio/giovannilodi.com/master/public/images/favicon_moka.ico")
   body
-    block content
+    .page
+      .row
+        .col-12
+          h1
+            a(href="/")
+              | Giovanni Lodi&nbsp;
+              span.subtitle (just call me joe)
+
+          block content

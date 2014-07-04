@@ -1,5 +1,6 @@
 
 @import 'nib/vendor'
+@import 'griddy'
 
 @import '../javascripts/vendor/font-awesome/css/font-awesome.css'
 // override font location
@@ -22,130 +23,73 @@ sublime_green = rgb(166, 226, 42)
 sublime_pruple = rgb(151, 129, 255)
 sublime_yellow = rgb(236, 219, 116)
 sublime_blue = rgb(98, 217, 239)
-green_sea = #16A085
-emerald = #2ECC71
+sublime_red = #f92672
 
-// Boring style
+// 12 columns grid system
+.row
+  grid-system(12, 20px, '.col')
+
+.page
+  max-width: 700px
+  margin: 0 auto
+
 body
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif
-  color: #34495E
-  background: white
-  transition(all, 1s, ease-in-out)
-
-body
-  padding: 60px 50px 50px 100px
-
-  a, a:hover
-    text-decoration: none
-  a
-    color: green_sea
-  a:hover
-    color: emerald
-
-.info-block
-  margin-bottom: 20px
-
-  image_side = 100px
-  .info-image
-    display: inline-block
-    width: image_side
-    margin-right: 16px
-    vertical-align: top
-
-    img
-      width: image_side
-
-  .info-content
-    display: inline-block
-    margin-left: 20px
-
-    h1
-      h1_size = 40px
-      h1_line_height = 1.2
-      font-size: h1_size
-      line-height: h1_line_height
-      margin-top: (image_side / 2) - ((h1_size * h1_line_height) / 2)
-
-      span.subtitle
-        font-size: (h1_size / 2)
-
-    h2, h3, h4
-      margin-top: 6px
-
-    ul
-      list-style-type: none
-      padding: 0
-      margin-bottom: 0
-
-    i:first-child
-      margin-left: 9px
-    // TODO I got problems with last-child and only-child...
-    i.lonley
-      margin-left: 0px
-      margin-right: 10px
-
-  // This is to have the face images overlapped for the fade transition
-  position: relative
-  #face_boring, 
-  #face_hacked
-    position: absolute
-    top: 0
-    left: 0
-
-  // defaults
-  .hacked-content
-    display: none
-
-
-// Hakced style
-body.hacked
   font: 14px Monaco, monospace;
   color: white
   background: sublime_black
+  margin-left: 20px
+  margin-right: 20px
 
-body.hacked  
+a
+  color: sublime_red
+  text-decoration: none
+
+h1_size = 40px
+h1_line_height = 1
+
+h1
+  font-size: h1_size
+  line-height: h1_line_height
+  
+  span.subtitle
+    display: inline-block
+    font-size: (h1_size / 2)
+    color: sublime_pruple
+
   a
+    color: white
+
+// Index
+#who
+  strong
     color: sublime_green
 
-  ul
-    margin-left: 20px
+#work
+  a
+    color: sublime_red
+  a:not(:first-of-type)
+    color: lighten(sublime_red, 10%)
 
-body.hacked,
-body.hacked a
-  transition(all, 1s, ease-in-out)
-
-#face_hacked
-  display: none
-
-
-// Lights off style
-body.lights-off
-  color: sublime_black
-  background: sublime_black
-  a, a:hover
-    color: sublime_black
-body.lights-off,
-body.lights-off a
-  transition(all, 1s, ease-in-out)
-
-
-// Colors classes
-.yellow
-  color: sublime_yellow
-
-.purple
-  color: sublime_pruple
-
-body.hacked
-  a#switch
+#spare-time
+  a
     color: sublime_blue
 
-// Utils
+#contacts
+  margin-top: 2.5em
+  a
+    color: sublime_yellow
+    display: inline-block
+    font-size: 1.4em
 
-.pull-right
-  float: right
+    &:not(:first-of-type)
+      margin-left: 16px
 
-// Icons
+// Open Source Page
+.open-source
+  ul
+    margin-left: 0
+    padding-left: 0
+    list-style: none
 
-i
-  font-size: 13px
+    li:not(:last-child)
+      margin-bottom: .65em

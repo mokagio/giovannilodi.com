@@ -3,7 +3,6 @@
 
 express = require 'express'
 routes = require './routes'
-user = require './routes/user'
 http = require 'http' 
 path = require 'path'
 nib = require 'nib'
@@ -34,7 +33,14 @@ if 'development' == app.get('env')
 app.use(nib)
 
 app.get('/', routes.index)
-app.get('/users', user.list)
+# app.get('/open-source', routes.open_source)
+app.get '/open-source', (req, res) ->
+  res.render "open_source",
+    title: "Open Source | Giovanni Lodi | mokagio"
+# app.get('/apps', routes.apps)
+app.get '/apps', (req, res) ->
+  res.render "apps",
+    title: "Indie Apps | Giovanni Lodi | mokagio"
 
 http.createServer(app).listen app.get('port'), () ->
   console.log('Express server listening on port ' + app.get('port'))

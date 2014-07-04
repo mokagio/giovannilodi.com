@@ -1,89 +1,27 @@
 extends layout
 
 block content
-  div.info-block
-    div.info-image
-      img#face_boring(src="https://raw.github.com/mokagio/giovannilodi.com/master/public/images/gio_c.png")
-      img#face_hacked(src="https://raw.github.com/mokagio/giovannilodi.com/master/public/images/mokagio_c.png")
-    div.info-content
-      h1 Giovanni Lodi&nbsp;
-        span.subtitle.boring-content software engineer
-        span.subtitle.hacked-content.purple hipster hacker
+  #who
+    :markdown
+      I'm a software developer keen on clean code and TDD.  
+      Currently focused on **iOS**, I enjoy **Ruby** and **Node.js** as well, and I'm looking into **Clojure**.
 
-  div.info-block
-    div.info-image
-    div.info-content
-      h2 Tech
-      ul
-        li iOS &amp Objective-C
-          span.boring-content
-            i.icon-star
-            i.icon-star
-            i.icon-star
-            i.icon-star
-            i.icon-star
-          span.hacked-content.yellow &nbsp;* * * * *
-        li Ruby &amp Ruby on Rails
-          span.boring-content
-            i.icon-star
-            i.icon-star
-            i.icon-star
-            i.icon-star-empty
-            i.icon-star-empty
-          span.hacked-content.yellow &nbsp;* * *
-        li Coffeescript &amp Node.js
-          span.boring-content
-            i.icon-star
-            i.icon-star
-            i.icon-star-empty
-            i.icon-star-empty
-            i.icon-star-empty
-          span.hacked-content.yellow &nbsp;* *
+  #work
+    :markdown
+      I take care of the [BIZZBY app](https://itunes.apple.com/gb/app/bizzby-on-demand-services/id659352778), previously [CatAcademy by Memrise](https://itunes.apple.com/gb/app/cat-spanish-by-catacademy/id690453731?mt=8) and [Kunerango](https://kunerango.com).
+  
+  #spare-time
+    :markdown
+      I have a couple of [indie apps](/apps), love [open source](/open-source), and [blog](http://mokacoding.com) every now and then.
 
-  div.info-block
-    div.info-image
-    div.info-content
-      h2 About
-      div.boring-content
-        :markdown
-          * Software Engineer, recently focused on iOS development
-          * Making language learning awesome at [CatAcademy](http://catacademy.com)
-          by [Memrise](http://memrise.com)
-          * Blogging on [mokacoding.com](http://mokacoding.com)
-          * Eating, swimming, and reading books in my spare time
-
-      div.hacked-content
-        :markdown
-          * Hipster hacker, focused on new technologies
-          * Coffeescript enthusiast
-          * Blogging on [mokacoding.com](http://mokacoding.com)
-          * Sharing code on [GitHub](http://github.com/mokagio)
-
-  div.info-block
-    div.info-image
-    div.info-content
-      h2 Contact
-      ul
-        li
-          i.icon-envelope.lonley
-          a(href="mailto:giovanni.lodi42@gmail.com") giovanni.lodi42@gmail.com
-        li 
-          i.icon-twitter.lonley
-          a(href="http://twitter.com/mokagio") mokagio
-        li 
-          i.icon-github.lonley
-          a(href="http://github.com/mokagio") GitHub
-        li 
-          i.icon-linkedin.lonley
-          a(href="http://www.linkedin.com/in/giovannilodi") LinkedIn
-        li 
-          i.icon-instagram.lonley
-          a(href="http://instagram.com/mokagio") Instagram
-        //- li more...
-
-  div.info-block
-    div.info-image
-    div.info-content.pull-right
-      a#switch(href="#", data-boring="back to night time version", data-hacked="back to day time version")
-
-  != js('layout_switch')
+  #contacts
+    a(href="https://github.com/mokagio")
+      i.icon-github
+    a(href="https://twitter.com/mokagio")
+      i.icon-twitter
+    a(href="https://instagram.com/mokagio")
+      i.icon-instagram 
+    a(href="http://www.linkedin.com/in/giovannilodi")
+      i.icon-linkedin
+    a(href="mailto:giovanni.lodi42@gmail.com")
+      i.icon-envelope
