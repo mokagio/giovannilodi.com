@@ -237,3 +237,25 @@ hr.small {
 footer {
     padding: 100px 0;
 }
+
+/* mokagio */
+.header h1 {
+    color: white;
+}
+
+.header h3 {
+    color: white;
+}
+
+/* Pomegranade color from http://flatuicolors.com/ */
+.bg-primary {
+    background: #c0392b;
+}
+
+.text-primary {
+    color: #c0392b;
+}
+
+a, a:hover {
+    color: #c0392b;
+}
