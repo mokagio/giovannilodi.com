@@ -259,3 +259,7 @@ footer {
 a, a:hover {
     color: #c0392b;
 }
+
+a.white, a.white:hover {
+    color: white;
+}
