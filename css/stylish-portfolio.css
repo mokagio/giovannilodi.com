@@ -252,7 +252,7 @@ footer {
     background: #c0392b;
 }
 
-.text-primary {
+.text-primary, a.text-primary, a.text-primary:hover {
     color: #c0392b;
 }
 
