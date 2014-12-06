@@ -316,7 +316,12 @@
 
       ga('create', 'UA-43554041-6', 'auto');
       ga('send', 'pageview');
+    </script>
 
+    <script type="text/javascript">
+        $(function() {
+            $('a:not([href^="#"])').attr("target", "_blank");
+        });
     </script>
 
 </body>
