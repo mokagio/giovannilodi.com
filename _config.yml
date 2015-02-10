@@ -1,5 +1,7 @@
 # Site settings
-url: "http://giovannilodi.com" # the base hostname & protocol for your site
+url: "http://giovannilodi.com"
 
 # Build settings
 markdown: kramdown
+
+include: ['.well-known']

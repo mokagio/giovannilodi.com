@@ -24,13 +24,13 @@ To claim this, I am signing this object:
       "hostname": "giovannilodi.com",
       "protocol": "http:"
     },
-    "type": "web_service_binding",
-    "version": 1
+  "type": "web_service_binding",
+  "version": 1
   },
-  "ctime": 1423565975,
+  "ctime": 1423567017,
   "expire_in": 157680000,
-  "prev": "f7d4860cca8ea5049baf61f338bf8431c05796e126c39867f16bc4f0dc19474a",
-  "seqno": 8,
+  "prev": "a9a7570d94de55f8f020ea1475a70d2ff9c31b09cdd24703fcf37bc98684fb6c",
+  "seqno": 10,
   "tag": "signature"
 }
 
@@ -39,29 +39,29 @@ which yields the PGP signature:
 -----BEGIN PGP MESSAGE-----
 Comment: GPGTools - https://gpgtools.org
 
-owFtUm1QVFUY3iU+BtYVbDBtZgm9LULIMPf7YyOmMsFygMkAbVC2+3Hucge4d9td
-d5HFJkwlKIGhdQAZCh0cA8yxGqqhbBJEJlaTBDFA/iCSa4HD5DCNoXQuY/8658eZ
-93mf53nf887baH7KEGO8UDK+ebMftRmDIcGQPzH7rR8RNOkAYvMjpWD1kRXVAVxO
-l6J6EBsiAhSXRRTgjExhFM/KJM3JOEcIEs1KNI7hGCMQKMEjaUiJ5tYV0Ebg3SBd
-0SAGA7siQfR/+KWrCRSDV0ZRmqEJHrASrMCIECMkwDEiIwGZYCkJYySOZBlMElmZ
-kjhG5llaojBcxCmKIVDdbv+qHcMCVuQwUaJYjoJCniYJmRBoisdIFkNRnegGLpUv
-B5BdrpXyDtjowTQEgl5FBPoE9I88IcCkl1dVpUyTlHRRK4dyp0vzaKJWBrMlHo/T
-pos9B5w62wcE+xMfu6CoEpwkFHiBy61oKmLDIFP0KLoxRuIERVMcQ6UhoMKpuIBd
-0RkUQ7MoPHoZ4IWWMiORLI2KIs8CnkJJTuBlGpMJghVkliQwEaUYjgYYTosEx9KM
-jNGCSMqoJGIcyZD6YNzgXVVDbCxsk3dAS7fiUHnPflc4QA7G1IZZwg3GGENkRJi+
-DYaY6Lj/VuQXLvax7cK1xOnxzI7QoUjnW5OqVVv036o1RJK9ue6OofSAqyah/cfi
-64/S21KOKXsz7IV1HqrDWrC92Wx6j7Osqf4+tWW+PzFryPorE/nXyiH5ZEFX2Nhs
-i7FzYlfK4jMzc0rcxr+HU4N0eP/SmoLbptbe4bHczA9NC/awSNMn+Y47n9VWH3l4
-48z8htbkrpyrJ1d8gdJzhxfez0682Med2ZQ3shBs2Pvm/UBE6jvN3aEiomdn7A/s
-S3cfTVR9+uygY89XX0YVdzVOhzeFspYpa+Vrr9dd3BK9kvJTy9YXa8pJ10xSoGoo
-1njNnGMPIFXi9OErEVu3JKRX5jUkPPC3txYohm1xPnbbTM6DOtMrNV9HJcnqphvF
-dKXPMfJB0ljTzZSgH++5VWUJ3u8eHLDQ+Y4rT78qn44P3RWqRl9o+27dF1OfX9pR
-2HypruzcoLl+7e3W2e75P9wZ1evavGW7t+8ezzibdj7pt+dTh9M25J5qX7mXzaiZ
-J6KmkqO+qR0dOnoklfh5sWv495GGP1+2GI4ZM5LHJ+6MIh0f5feHZfUTIPvU9bOP
-i1qb3VNo3NXlon8qzNa+eNd589HoJdMboXvoUudaJiXubeLhnn1zyZf3xZPrs2e0
-4x19s89NrMdvJs+Jlzcu13vJySA4XdDycUNnr/X4QFNTntPX3ugeLpzcsWuwfqCn
-4l8=
-=wx3w
+owFtkntQVFUcxxdYQJYYfAxN0UrudbSHiPex97WRhIOlaDjTbI0mttzHucsNuHfZ
+XXahjRgoTNQhFNfJKR8JszVhEgQVwyNEAoEGUREjRkxikBb+aCpgjKTOZey/zvnj
+zPn+vt/POb8zpyomTGcIac8eMZl8qCVk4FdeZx2d/sKH8KpYhFh8SA5YXiRZsQOn
+wykrbsSCCADFJQEFOC2RGMkxkpliJZwleJFiRArHcIzmCZTgkEQkW3VpCYjhORdI
+klWowY1NFqH6P/6c5QKKwSmhKEVTBAcYEZ5AC1AjRMDSAi0CiWBIEaNF1szQmCgw
+EimytMQxlEhiuICTJE2gGq5gGUczgBFYTBBJhiVhkKPMhETwFMlhZgZDUc3oAk6F
+ywPQnafmcHZ40eJEBIoeWQDaC2iNPDTAoodTFDlXFeUkQc2DcYdTdauCmgur2W63
+w6KF3UUOze0FvO0hx8bLighfEgY8wOmSVQWxYNApuGUNjJlxgqRoFKMTEVDokJ3A
+JmsOkqYYFA7tGOCBSI7laJJGYfciIEmJkVAcBbAXmuSgiksSKxAYj7KCKOJmGiUk
+QSJoXmAZijFLPCUgWmf5igrZEOrm7JDpku0K5y4IdwKk2FARatTrQgy6iPBQ7Tvo
+DFEr//sjuzbFLtH631OWmvThUVnBvLU1IKnIuL6yIetCob20rY4PhPYYtw7+2FDe
+yRgn8eO2+gOd/tQ+z47+kUAY3vXatKvUv+rL9O7Aq8GBsdN7b8S0l5yNC35e1WUv
+PNOHfvPgTOh0yZ7nJodNd3uT9227up0O7I8Qn2pvn0nr6ajofMyXnLsybnxpPG3m
+6prjQ6kXXzf8tKv/3vzcJeZQZPkjFcf2uI/9Zr+9Wvy7MLOp9a+7vSmZIOLRfS2D
+sTuLo7dm2wKVmX9s3jTREBnffW0u/6UF20nc+6ktzvF4o1nf17UzpjxdeU9vafNu
+zC2oOTcx11g8e7DnYHbduppnTO9/7Dtdzc3Wv3nEf2vx+menTpSd+3OmefYKojdx
+6d8vduQH1/tGvEO1VvSysb6pqvvG7NhJ4HlZCYy1xK+Jq1jaxt5pTnhhb5gxZYu1
+Omq0+Y13yVsL3/FHzq74oHYhEVwenbeMI/FZb3XfUao+2bI9lUq0nHqxuhCZCoRZ
+eo1T/tVD54tb7N9+tCq6T/+gJLlss+4X69EDsR27677GrkQDydK6IeifuzBQNBxf
+Pb6Y8EPY3MWfMzqFyaAhSXp2ReYTQ+bRxic3SKOlty8R1uscv3vwfsbbr9xsnc8x
+rfP6E8pulsi1kfdP9G1c21YptB59+qtgfv9U7If/8O88T0wcPl9bcyhjOG2/9V77
+jmv/Ag==
+=F6TE
 -----END PGP MESSAGE-----
 
 And finally, I am proving ownership of this host by posting or
