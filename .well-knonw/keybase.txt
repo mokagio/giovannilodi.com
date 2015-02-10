@@ -1,0 +1,73 @@
+==================================================================
+https://keybase.io/mokagio
+--------------------------------------------------------------------
+
+I hereby claim:
+
+* I am an admin of http://giovannilodi.com
+* I am mokagio (https://keybase.io/mokagio) on keybase.
+* I have a public key with fingerprint CE02 FC0E 27F5 15A8 F469  F293 BD68 D621 217B 303A
+
+To claim this, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "fingerprint": "ce02fc0e27f515a8f469f293bd68d621217b303a",
+      "host": "keybase.io",
+      "key_id": "bd68d621217b303a",
+      "kid": "01010f006763ae8d8f47c1013de97c7def385d17d94871dc8f5d97fa86d512c255730a",
+      "uid": "78e8c91cd589585da643f3b65a148100",
+      "username": "mokagio"
+    },
+    "service": {
+      "hostname": "giovannilodi.com",
+      "protocol": "http:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "ctime": 1423565975,
+  "expire_in": 157680000,
+  "prev": "f7d4860cca8ea5049baf61f338bf8431c05796e126c39867f16bc4f0dc19474a",
+  "seqno": 8,
+  "tag": "signature"
+}
+
+which yields the PGP signature:
+
+-----BEGIN PGP MESSAGE-----
+Comment: GPGTools - https://gpgtools.org
+
+owFtUm1QVFUY3iU+BtYVbDBtZgm9LULIMPf7YyOmMsFygMkAbVC2+3Hucge4d9td
+d5HFJkwlKIGhdQAZCh0cA8yxGqqhbBJEJlaTBDFA/iCSa4HD5DCNoXQuY/8658eZ
+93mf53nf887baH7KEGO8UDK+ebMftRmDIcGQPzH7rR8RNOkAYvMjpWD1kRXVAVxO
+l6J6EBsiAhSXRRTgjExhFM/KJM3JOEcIEs1KNI7hGCMQKMEjaUiJ5tYV0Ebg3SBd
+0SAGA7siQfR/+KWrCRSDV0ZRmqEJHrASrMCIECMkwDEiIwGZYCkJYySOZBlMElmZ
+kjhG5llaojBcxCmKIVDdbv+qHcMCVuQwUaJYjoJCniYJmRBoisdIFkNRnegGLpUv
+B5BdrpXyDtjowTQEgl5FBPoE9I88IcCkl1dVpUyTlHRRK4dyp0vzaKJWBrMlHo/T
+pos9B5w62wcE+xMfu6CoEpwkFHiBy61oKmLDIFP0KLoxRuIERVMcQ6UhoMKpuIBd
+0RkUQ7MoPHoZ4IWWMiORLI2KIs8CnkJJTuBlGpMJghVkliQwEaUYjgYYTosEx9KM
+jNGCSMqoJGIcyZD6YNzgXVVDbCxsk3dAS7fiUHnPflc4QA7G1IZZwg3GGENkRJi+
+DYaY6Lj/VuQXLvax7cK1xOnxzI7QoUjnW5OqVVv036o1RJK9ue6OofSAqyah/cfi
+64/S21KOKXsz7IV1HqrDWrC92Wx6j7Osqf4+tWW+PzFryPorE/nXyiH5ZEFX2Nhs
+i7FzYlfK4jMzc0rcxr+HU4N0eP/SmoLbptbe4bHczA9NC/awSNMn+Y47n9VWH3l4
+48z8htbkrpyrJ1d8gdJzhxfez0682Med2ZQ3shBs2Pvm/UBE6jvN3aEiomdn7A/s
+S3cfTVR9+uygY89XX0YVdzVOhzeFspYpa+Vrr9dd3BK9kvJTy9YXa8pJ10xSoGoo
+1njNnGMPIFXi9OErEVu3JKRX5jUkPPC3txYohm1xPnbbTM6DOtMrNV9HJcnqphvF
+dKXPMfJB0ljTzZSgH++5VWUJ3u8eHLDQ+Y4rT78qn44P3RWqRl9o+27dF1OfX9pR
+2HypruzcoLl+7e3W2e75P9wZ1evavGW7t+8ezzibdj7pt+dTh9M25J5qX7mXzaiZ
+J6KmkqO+qR0dOnoklfh5sWv495GGP1+2GI4ZM5LHJ+6MIh0f5feHZfUTIPvU9bOP
+i1qb3VNo3NXlon8qzNa+eNd589HoJdMboXvoUudaJiXubeLhnn1zyZf3xZPrs2e0
+4x19s89NrMdvJs+Jlzcu13vJySA4XdDycUNnr/X4QFNTntPX3ugeLpzcsWuwfqCn
+4l8=
+=wx3w
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/mokagio
+
+==================================================================
+
