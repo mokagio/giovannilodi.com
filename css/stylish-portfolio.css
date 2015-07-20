@@ -162,6 +162,14 @@ hr.small {
     -o-background-size: cover;
 }
 
+.header.lego {
+    background: url(../img/bg.jpg) no-repeat center center scroll;
+}
+
+.header.macbook {
+    background: url(../img/macbook-header.jpg) no-repeat center center scroll;
+}
+
 /* About */
 
 .about {
@@ -247,6 +255,14 @@ footer {
     color: white;
 }
 
+a.white, a.white:hover {
+    color: white;
+}
+
+ul li {
+    margin-top: 20px;
+}
+
 /* Pomegranade color from http://flatuicolors.com/ */
 .bg-primary {
     background: #c0392b;
@@ -260,10 +276,32 @@ a, a:hover {
     color: #c0392b;
 }
 
-a.white, a.white:hover {
+/* Wet Asphalt color from http://faltuicolors.com/ */
+body.color-wet-asphalt .bg-primary {
+    background: #34495e;
+}
+
+body.color-wet-asphalt .text-primary,
+body.color-wet-asphalt a.text-primary,
+body.color-wet-asphalt a.text-primary:hover {
+    color: #34495e;
+}
+
+body.color-wet-asphalt a,
+body.color-wet-asphalt a:hover {
+    color: #34495e;
+}
+body.color-wet-asphalt a.white,
+body.color-wet-asphalt a.white:hover {
     color: white;
 }
 
-ul li {
-    margin-top: 20px;
+body.color-wet-asphalt .btn-dark,
+body.color-wet-asphalt .btn-dark:hover {
+    color: white;
+}
+
+body.color-wet-asphalt .sidebar-nav li a,
+body.color-wet-asphalt .sidebar-nav li a:hover {
+    color: white;
 }
